@@ -1,0 +1,5 @@
+https://github.com/richzhang/colorization/blob/caffe/colorization/models/colorization_deploy_v2.prototxt
+
+https://github.com/richzhang/colorization/blob/caffe/colorization/resources/pts_in_hull.npy
+
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0trZmZCbGlTZ2hfZm5heW9RZlRzSFZvVlVfZ3xBQ3Jtc0tuc1FUel9JSTJDazV4SzhuUDVSWS1RNE01V3djeTdJLW0tbVVOYXVCOWozcDctbnl4T2JGaVBPVEVBRWhYQjhLZUUtSzJtc2UzMUR4cktPSld0RmdyWUVQRUJJNXpwZlQ2MzdTSUJGdzl5dGJSMnNuWQ&q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fdx0qvhhp5hbcx7z%2Fcolorization_release_v2.caffemodel%3Fdl%3D1&v=gAmskBNz_Vc
