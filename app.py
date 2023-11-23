@@ -8,12 +8,12 @@ import base64
 app = Flask(__name__)
 
 # Define the upload and colorized folders
-UPLOAD_FOLDER = 'D:/Projects/Python/ImageColorizer/Images/uploads'
-COLORIZED_FOLDER = 'D:/Projects/Python/ImageColorizer/Images/colorized'
+UPLOAD_FOLDER = '/Images/uploads'
+COLORIZED_FOLDER = '/Images/colorized'
 
-# Ensure the upload and colorized folders exist
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-os.makedirs(COLORIZED_FOLDER, exist_ok=True)
+# To create the upload and colorized folders
+# os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+# os.makedirs(COLORIZED_FOLDER, exist_ok=True)
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['COLORIZED_FOLDER'] = COLORIZED_FOLDER
