@@ -24,11 +24,11 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def colorize_image(input_path, output_path):
-    print("Loading model")
+    print("Loading models")
     DIR = os.path.dirname(os.path.abspath(__file__))
-    PROTOTXT = os.path.join(DIR, "Model/colorization_deploy_v2.prototxt")
-    POINTS = os.path.join(DIR, "Model/pts_in_hull.npy")
-    MODEL = os.path.join(DIR, "Model/colorization_release_v2.caffemodel")
+    PROTOTXT = os.path.join(DIR, "Models/colorization_deploy_v2.prototxt")
+    POINTS = os.path.join(DIR, "Models/pts_in_hull.npy")
+    MODEL = os.path.join(DIR, "Models/colorization_release_v2.caffemodel")
 
     net = cv2.dnn.readNetFromCaffe(PROTOTXT, MODEL)
     pts = np.load(POINTS)
